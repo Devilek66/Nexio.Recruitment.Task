@@ -1,9 +1,9 @@
-﻿using Nexio.Recruitment.Task.Models;
+﻿using Nexio.Recruitment.Task.Models.ViewModels;
 
 namespace Nexio.Recruitment.Task.Services.ServicesInterfaces
 {
-    interface IPairingService
+    public interface IPairingService
     {
-        bool DoTheyMatch(PersonModel personModel);
+        bool DoTheyMatch(PersonViewModel woman, PersonViewModel man);
     }
 }

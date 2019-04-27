@@ -1,0 +1,18 @@
+﻿@model Nexio.Recruitment.Task.Models.ViewModels.ResultViewModel
+
+@{
+    <h3>@Model.WomanName i @Model.ManName</h3>
+    <div>
+        @if (Model.Match)
+        {
+            <p>Pasują do siebie</p>
+        }
+        else
+        {
+            <p>Nie pasują do siebie</p>
+        }
+    </div>
+}
+
+<h2>Result</h2>
+

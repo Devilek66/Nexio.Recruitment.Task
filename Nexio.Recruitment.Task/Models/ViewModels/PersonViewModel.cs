@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Nexio.Recruitment.Task.Models
+namespace Nexio.Recruitment.Task.Models.ViewModels
 {
-    public class PersonModel
+    public class PersonViewModel
     {
         public GenderEnum Gender { get; set; }
         public string Name { get; set; }
