@@ -7,8 +7,9 @@ namespace Nexio.Recruitment.Task.Models
 {
     public enum EyeColorEnum
     {
-        Black,
-        Yellow,
-        Green
+        Niebieskie,
+        Zielone,
+        Szare,
+        Brązowe
     }
 }

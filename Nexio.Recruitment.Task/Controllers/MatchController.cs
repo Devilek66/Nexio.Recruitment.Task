@@ -1,5 +1,6 @@
 ﻿using Nexio.Recruitment.Task.Models.ViewModels;
 using Nexio.Recruitment.Task.Services.ServicesInterfaces;
+using System.Linq;
 using System.Web.Mvc;
 
 namespace Nexio.Recruitment.Task.Controllers
@@ -21,8 +22,14 @@ namespace Nexio.Recruitment.Task.Controllers
         [HttpPost]
         public ActionResult Woman(PersonViewModel person)
         {
-            Session["Woman"] = person;
-            return RedirectToAction("Man");
+            if (ModelState.IsValid)
+            {
+                Session["Woman"] = person;
+                return RedirectToAction("Man");
+            }
+
+
+            return View();
         }
 
         public ActionResult Man()
