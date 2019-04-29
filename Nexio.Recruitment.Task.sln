@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexio.Recruitment.Task", "Nexio.Recruitment.Task\Nexio.Recruitment.Task.csproj", "{253FBDC8-3AF9-41D6-857B-74F3C61B1166}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8DD491A0-67FD-45F8-B215-35A34DE61E53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{253FBDC8-3AF9-41D6-857B-74F3C61B1166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{253FBDC8-3AF9-41D6-857B-74F3C61B1166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{253FBDC8-3AF9-41D6-857B-74F3C61B1166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD491A0-67FD-45F8-B215-35A34DE61E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD491A0-67FD-45F8-B215-35A34DE61E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD491A0-67FD-45F8-B215-35A34DE61E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD491A0-67FD-45F8-B215-35A34DE61E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

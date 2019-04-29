@@ -22,6 +22,7 @@ namespace Nexio.Recruitment.Task.Models.ViewModels
         [Range(1,300)]
         public int Height { get; set; }
 
+        [DisplayName("Kolor Oczu")]
         public EyeColorEnum EyeColor { get; set; }
     }
 }

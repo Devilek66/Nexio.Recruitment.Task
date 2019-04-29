@@ -28,7 +28,6 @@ namespace Nexio.Recruitment.Task.Controllers
                 return RedirectToAction("Man");
             }
 
-
             return View();
         }
 
